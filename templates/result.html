@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generated Questions</title>
+</head>
+<body>
+    <h1>Generated Questions</h1>
+
+    {% for question in questions %}
+        <div>
+            <h3>Question: {{ question.questionText }}</h3>
+            <p><strong>Answer:</strong> {{ question.answerText }}</p>
+            <p><strong>Distractors:</strong></p>
+            <ul>
+                {% for distractor in question.distractors %}
+                    <li>{{ distractor }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+        <hr>
+    {% endfor %}
+
+    <a href="/">Go back</a>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question Generation</title>
+</head>
+<body>
+    <h1>Generate Questions from Text</h1>
+    <form action="/generate" method="POST">
+        <label for="text">Enter your text (max 10,000 words):</label><br>
+        <textarea id="text" name="text" rows="10" cols="50" maxlength="10000" required></textarea><br><br>
+
+        <label for="num_questions">Number of questions:</label><br>
+        <input type="number" id="num_questions" name="num_questions" min="1" required><br><br>
+
+        <input type="submit" value="Generate Questions">
+    </form>
+</body>
+</html>
