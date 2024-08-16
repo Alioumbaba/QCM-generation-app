@@ -92,7 +92,7 @@ if not os.path.exists(output3):
     gdown.download(url3, output3, quiet=False)
 
 # Titre de la page
-st.title("Generate Questions from Text")
+st.title("Cours A61 et A62 : Projet de synthèse\nRéalisé par : Alioum et Alpha Amadou Diallo\nSupervision : Hafed Benteftifa et Komi Sodoke\n\nGenerate Questions from Text")
 
 # Formulaire pour entrer le texte
 text = st.text_area("Enter your text (max 10,000 words):", max_chars=10000)
