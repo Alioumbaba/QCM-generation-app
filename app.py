@@ -93,7 +93,7 @@ if not os.path.exists(output3):
 
 # Titre de la page
 # st.title("Cours A61 et A62 : Projet de synthèse\nRéalisé par : Alioum et Alpha Amadou Diallo\n\nSupervision : Hafed Benteftifa et Komi Sodoke\n\nGenerate Questions from Text")
-st.markdown("**Cours A61 et A62 : Projet de synthèse\nRéalisé par : Alioum et Alpha Amadou Diallo\nSupervision : Hafed Benteftifa et Komi Sodoke\n\n# Generate Questions from Text**")
+st.markdown("**Cours A61 et A62 : Projet de synthèse**\n**Réalisé par : Alioum et Alpha Amadou Diallo**\n**Supervision : Hafed Benteftifa et Komi Sodoke**\n\n**Generate Questions from Text**")
 
 
 # Formulaire pour entrer le texte
